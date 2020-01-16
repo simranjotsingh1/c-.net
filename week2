@@ -1,0 +1,35 @@
+ Console.WriteLine("1. My name is Simranjot Singh");
+            Console.WriteLine("   My Age is 19");
+            Console.WriteLine("   My e-mail address is arorasimran380@gmail.com");
+
+            float a = 30;
+            float b = 3;
+            float c = 7;
+            float d = 5;
+            float add = a + b + c + d;
+            float subtract = a - b-c-d;
+            float multiply = a * b * c * d;
+            float e = a / b;
+            float f = c / d;
+            float divide = e / f;
+            Console.WriteLine("   Sum of four number is " + add);
+            Console.WriteLine("   Substraction of four number is " + subtract);
+            Console.WriteLine("   Product of four number is " + multiply);
+            Console.WriteLine("   Division " + divide);
+
+            /* Write a program to calculate following output 
+
+ (x+y+z)*w/v   */
+
+            float x = 30;
+            float y = 3;
+            float z = 7;
+            float v = 5;
+            float w = 10;
+
+            float sum = x + y + z;
+            float denominator = w / v;
+            float sol = sum / denominator;
+
+            Console.Write("2. The Answer of problem is "+ sol);
+            Console.Read();
