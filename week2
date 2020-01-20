@@ -33,3 +33,51 @@
 
             Console.Write("2. The Answer of problem is "+ sol);
             Console.Read();
+            
+              int x = 5;
+            int y;
+
+            y = x * 1;
+            Console.WriteLine("The Table is : {0} x {1} = {2}", x, 1, y);
+
+            y = x * 2;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 2, y);
+            y = x * 3;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 3, y);
+            y = x * 4;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 4, y);
+            y = x * 5;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 5, y);
+            y = x * 6;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 6, y);
+            y = x * 7;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 7, y);
+            y = x * 8;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 8, y);
+            y = x * 9;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 9, y);
+            y = x * 10;
+            Console.WriteLine("             : {0} x {1} = {2}", x, 10, y);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.Write("&&&&");
+            Console.WriteLine("&");
+            Console.Write("&&&&");
+            Console.WriteLine("&&");
+            Console.Write("&&&&");
+            Console.WriteLine("&&&");
+            Console.Write("&&&&");
+            Console.WriteLine("&&&&");
+            Console.Write("&&&&");
+            Console.WriteLine("&&&&&");
+
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.WriteLine("*");
+            Console.WriteLine("*");
+            Console.WriteLine("*");
+            Console.Write("*******");
