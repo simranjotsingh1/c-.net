@@ -37,6 +37,18 @@
               int x = 5;
             int y;
 
+
+   int x = 12;
+            int y = 19;
+            Console.WriteLine("The vxlue of x is {0}", x);
+            Console.WriteLine("The vxlue of y is {0}", y);
+            temp = x;
+            x = y;
+            y = temp;
+            Console.WriteLine("now,The value of x is {0} ", x);
+            Console.WriteLine("now,The value of y is {0} ", y);
+
+            Console.Read();
             y = x * 1;
             Console.WriteLine("The Table is : {0} x {1} = {2}", x, 1, y);
 
