@@ -31,3 +31,34 @@ int CurrentReading;
             Console.WriteLine("Total bill: " + TotalBill.ToString("C"));
 
             Console.ReadLine();
+            
+            
+            
+            
+            
+            int r;
+            Console.WriteLine("Enter the radius of sphere");
+            r = Convert.ToInt32(Console.ReadLine());
+            int π = 22 / 7;
+            int A;
+            A = 4 * π * r * r;
+            Console.WriteLine("Area of sphere is {0}", A);
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
+            /* Volume of Sphere   */
+
+            int h;
+            Console.WriteLine("Enter the height of the cone :");
+            h = Convert.ToInt32(Console.ReadLine());
+
+            int V;
+            V = π * r * r * h / 3;
+            Console.WriteLine("Volume of cone is {0}", V);
+
+
+
+            Console.ReadLine();
+
