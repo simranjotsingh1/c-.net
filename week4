@@ -195,4 +195,44 @@
             
 
             Console.ReadLine();
+            
+            switch==============================
+            int a, b,choose;
+            Console.WriteLine("Enter the 1st number a : ");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the 2nd number b : ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("1-Addition.\n2-Substraction.\n3-Multiplication.\n4-Division.\n5-Exit.\n");
+            Console.Write("\nInput your choice :");
+            choose = Convert.ToInt32(Console.ReadLine());
+
+            switch (choose)
+            {
+                case 1:
+                    Console.Write("The addition of {0} and {1} is {2} \n", a, b, a + b);
+                    break;
+
+                case 2:
+                    Console.Write("The substraction of {0} and {1} is {2} \n", a, b, a - b);
+                    break;
+
+                case 3:
+                    Console.Write("The product of {0} and {1} is {2} \n", a, b, a * b);
+                    break;
+
+                case 4:
+                    Console.Write("The divsion of {0} and {1} is {2} \n", a, b, a / b);
+                    break;
+
+
+                case 5:
+                    break;
+
+                default:
+                    Console.Write("Input is not a correct");
+                    break;
+
+            }
+            Console.ReadLine();
 
