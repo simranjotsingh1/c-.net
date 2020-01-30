@@ -118,3 +118,51 @@
 
             }
             Console.ReadLine();
+            
+            /* boolean*/
+             bool Day = true;
+            bool night = false;
+            if (Day == true)
+            {
+                Console.WriteLine("day Time ");
+            }
+            else
+            {
+                Console.WriteLine("Night Time ");
+            }
+            ======================Nested==========================
+             int a;
+            Console.WriteLine("Enter your 1st number  a : ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            int b;
+            Console.WriteLine("Enter your 2nd number  b : ");
+           b = Convert.ToInt32(Console.ReadLine());
+
+            int c;
+            Console.WriteLine("Enter your three number  c : ");
+            c = Convert.ToInt32(Console.ReadLine());
+
+            if (a > b)
+            {
+                if (a < c)
+                {
+                    Console.WriteLine("c is maximum number");
+                }
+                else
+                {
+                    Console.WriteLine("a is maximum number");
+                }
+            }
+            else
+            {
+                if (b > c)
+                {
+                    Console.WriteLine("b is maximum number");
+                }
+                else
+                { Console.WriteLine("c is maximum number"); }
+            
+            
+            }
+
