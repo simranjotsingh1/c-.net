@@ -57,3 +57,64 @@
 
             }
             Console.ReadLine();
+            
+            /* ===============================10%=======================================*/
+             int CurrentReading;
+            Console.WriteLine("Current meter Reading : ");
+            CurrentReading = Convert.ToInt32(Console.ReadLine());
+
+            int LastReading;
+            Console.WriteLine("Meter reading reported on last months bill : ");
+            LastReading = Convert.ToInt32(Console.ReadLine());
+            int TotalUsed;
+            TotalUsed = CurrentReading - LastReading;
+            Console.WriteLine("Total KWH's Used :{0}", TotalUsed);
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
+            Console.WriteLine("Total KWH's Used :{0}", TotalUsed);
+            Double charge = 0.095;
+            Console.WriteLine("Charge per KWH :{0}", charge.ToString("C"));
+            Double TotalEnergy;
+            TotalEnergy = TotalUsed * charge;
+            Console.WriteLine("Total Energy charge  :{0}", TotalEnergy.ToString("C"));
+
+
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("Total Energy charge  :{0}", TotalEnergy.ToString("C"));
+            int MonthlyFees = 10;
+            Console.WriteLine("Standard monthly Fees :" + MonthlyFees.ToString("C"));
+            double TotalBill;
+            TotalBill = TotalEnergy + MonthlyFees;
+
+            double discountPercentage = 0.10;
+            double discount;
+            discount = TotalBill * discountPercentage;
+            Console.WriteLine("discount : " + discount.ToString("C"));
+
+            Console.WriteLine("Total bill: " + TotalBill.ToString("C"));
+            double finalBill;
+            finalBill = TotalBill - discount;
+
+
+
+            if (CurrentReading > 50000 || TotalUsed == 1000)
+            {
+                Console.WriteLine(" ");
+                Console.WriteLine(" ");
+                Console.WriteLine("You got 10% discount .Now your bill is " + finalBill.ToString("C"));
+
+            }
+
+            else
+            {
+                Console.WriteLine("You are Good");
+
+
+            }
+            Console.ReadLine();
