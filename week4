@@ -30,8 +30,21 @@
             double TotalBill;
             TotalBill = TotalEnergy + MonthlyFees;
             Console.WriteLine("Total bill: " + TotalBill.ToString("C"));
-
+/*==========================================And if====================================*/
             if (CurrentReading > 500000 && TotalUsed == 1000)
+            {
+                Console.WriteLine("You have to pay extra cost");
+
+            }
+
+            else
+            {
+                Console.WriteLine("You are Good");
+
+
+            }
+                 /* ========================================OR==========================================*/
+             if (CurrentReading > 50000 || TotalUsed == 1000)
             {
                 Console.WriteLine("You have to pay extra cost");
 
