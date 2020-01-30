@@ -58,7 +58,7 @@
             }
             Console.ReadLine();
             
-            /* ===============================10%=======================================*/
+            /* ===============================10% Discount=======================================*/
              int CurrentReading;
             Console.WriteLine("Current meter Reading : ");
             CurrentReading = Convert.ToInt32(Console.ReadLine());
