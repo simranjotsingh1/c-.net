@@ -1,0 +1,20 @@
+{
+          
+            int i, j;
+            Console.WriteLine("enter the number i : ");
+            i = Convert.ToInt32(Console.ReadLine());
+
+            for (j = 2; j < i; j++)
+            {
+                if (i % j == 0)
+                {
+                    Console.WriteLine("{0} no", i);
+
+                }
+            }
+            if (j == i)
+            {
+
+                Console.WriteLine("{0} yes", i);
+            }
+        }
