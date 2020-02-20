@@ -43,3 +43,43 @@
 
         }
         =============================================================
+         static void Main(string[] args)
+        {
+            Simar obj = new Simar();
+                obj.input();
+               
+        }
+
+    }
+    class Simar
+    {
+   
+        public void input()
+    {
+        double a, b, c, d;
+        Console.WriteLine("enter the number a : ");
+        a = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("enter the number b : ");
+        b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the number c : ");
+         c = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the number d : ");
+         d = Convert.ToInt32(Console.ReadLine());
+            ouput(ref a, ref b, ref c, ref d);
+    }
+    public void ouput(ref double a,ref double b, ref double c, ref double d)
+    {
+       
+        double u = a + b+c+d;
+        Console.WriteLine("Sum is " + u);
+
+        double v = a - b-c-d;
+        Console.WriteLine("Subtraction is" + v);
+
+
+        double w = a * b *c*d;
+        Console.WriteLine("product of two number is " + w);
+
+        double x = (a / b)/(c/d);
+        Console.WriteLine("Division is " + x);
