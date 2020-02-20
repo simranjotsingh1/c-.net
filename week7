@@ -1,0 +1,45 @@
+        Sum Addition = new Sum();
+            Addition.Add();
+            Addition.Subtraction();
+            Addition.Multiply();
+            Addition.Divide();
+            Console.ReadLine();
+
+        }
+
+
+    }
+    class Sum
+    {
+        public void Add()
+        {
+            int a = 5;
+            int b = 10;
+            int c = a + b;
+            Console.WriteLine("Sum is "+ c);
+        }
+        public void Subtraction()
+        {
+            int d = 12;
+            int e = 5;
+            int f = d - e;
+            Console.WriteLine("Subtraction is" + f);
+
+        }
+        public void Multiply()
+        {
+            int g = 12;
+            int h = 5;
+            int i = g * h;
+            Console.WriteLine("product of two number is " + i);
+
+        }
+        public void Divide()
+        {
+            int j = 25;
+            int k = 3;
+            float l = j / k;
+            Console.WriteLine("Division is " + l);
+
+        }
+        =============================================================
